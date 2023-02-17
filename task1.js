@@ -1,8 +1,8 @@
-let input = +prompt("пожалуйста, введите значение", '');
-if (typeof input === Number && isNaN(input)) {
-    console.log('упс, кажется вы ошиблись');
+let input = +prompt("пожалуйста, введите значение", "");
+if (typeof input === "number" && isNaN(input)) {
+  console.log("упс, кажется вы ошиблись");
 } else if (input % 2 === 0) {
-    console.log ('число четное');
+  console.log("число четное");
 } else {
-    console.log ('число нечетное')
+  console.log("число нечетное");
 }
